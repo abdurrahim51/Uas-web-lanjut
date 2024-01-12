@@ -48,17 +48,13 @@ class CategoryController extends Controller
             ->with('success', 'Kategori berhasil dibuat.');
     }
 
-    /**
-     * Menampilkan sumber daya tertentu.
-     */
+
     public function show(Category $category): View
     {
         return view('category.show', compact('category'));
     }
 
-    /**
-     * Menampilkan formulir untuk mengedit sumber daya tertentu.
-     */
+
     public function edit(Category $category): View
     {
         return view('category.edit', compact('category'));

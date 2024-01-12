@@ -18,7 +18,7 @@ class ProductController extends Controller
     public function index(): View
     {
 
-        $product = Product::with('categor')->orderBy('name', 'asc')->get();
+        $product = Product::with('catagor')->orderBy('name', 'asc')->get();
 
         return view('product.index', compact('product'))->with('i', (request()->input('page', 1) - 1) * 5);
     }
@@ -106,9 +106,7 @@ class ProductController extends Controller
         return redirect()->route('product.index')->with('success', 'Product updated successfully');
     }
 
-    /**
-     * Remove the specified resource from storage.
-     */
+
     public function destroy(Product $product): RedirectResponse
     {
         $product->delete();

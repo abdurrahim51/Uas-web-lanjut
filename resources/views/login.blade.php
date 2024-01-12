@@ -8,6 +8,7 @@
     <title>Login</title>
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/bootstrap/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 
 <body>
@@ -58,9 +59,12 @@
 
                                 <!-- Submit button -->
                                 <div class="col-md-12">
-                                    <button type="submit" class="col-12 btn btn-primary btn-block mb-4">Sign
-                                        in</button>
+                                    <button type="submit" class="col-12 btn btn-primary btn-block mb-4">Login</button>
+                                    <a class="col-12 btn btn-primary btn-block mb-4" href="{{ url('frontend') }}"
+                                        role="button">Kembali</a>
+
                                 </div>
+
                             </form>
                         </div>
                     </div>
@@ -70,7 +74,6 @@
     </div>
     <script src="/frontend/CSS/bootstrap.min.js"></script>
     <script src="/frontend/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <!--=============== MAIN JS ===============-->
     <script src="/frontend/CSS/js/main.js"></script>
 </body>
 

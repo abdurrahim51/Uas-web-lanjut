@@ -9,7 +9,6 @@
                     <div class="card-header" style="font-size: 20px; text-align: center"><strong>Edit Data pemesanan</strong>
                     </div>
                     <div class="card-body">
-
                         <form action="{{ route('pemesanan.update', $pemesanan->id) }}" method="POST"
                             enctype="multipart/form-data">
                             @csrf

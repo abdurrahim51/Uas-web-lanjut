@@ -16,6 +16,7 @@ class pemesanan extends Model
     ];
 
 
+
     public function produkk()
     {
         return $this->belongsTo(Product::class, 'produk', 'id');

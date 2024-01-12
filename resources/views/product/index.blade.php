@@ -31,13 +31,12 @@
                 <td>{{ $product->description }}</td>
                 <td>{{ $product->price }}</td>
                 <td>{{ $product->stok }}</td>
-                <td>{{ $product->categor?->name }}</td>
+                <td>{{ $product->catagor?->name }}</td>
 
                 <td>
                     <form action="{{ route('product.destroy', $product->id) }}" method="POST">
 
                         <a class="btn btn-primary" href="{{ route('product.edit', $product->id) }}">Edit</a>
-
                         @csrf
                         @method('DELETE')
 

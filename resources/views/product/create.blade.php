@@ -40,6 +40,7 @@
                         <strong>Stok:</strong>
                         <input class="form-control" name="stok" placeholder="Stok">
                     </div>
+
                     <div class="mb-3">
                         <div class="form-group">
                             <strong>category:</strong>

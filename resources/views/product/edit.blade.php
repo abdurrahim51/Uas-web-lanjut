@@ -44,9 +44,6 @@
                                     </div>
                                     <div class="mb-3">
                                         <div class="form-group">
-                                            {{-- <strong>Stok:</strong>
-                                            <input type="text" name="Stok" value="{{ $product->Stok }}"
-                                                class="form-control" placeholder="stok"> --}}
                                             <strong>stok:</strong>
                                             <input type="text" name="stok" value="{{ $product->stok }}"
                                                 class="form-control" placeholder="stok">

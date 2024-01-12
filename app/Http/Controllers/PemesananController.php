@@ -49,17 +49,12 @@ class PemesananController extends Controller
             ->with('success', 'pemesanan berhasil dibuat.');
     }
 
-    /**
-     * Display the specified resource.
-     */
+
     public function show(pemesanan $pemesanan)
     {
         //
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     */
     public function edit(pemesanan $pemesanan)
     {
         $data_produkk = Product::all();

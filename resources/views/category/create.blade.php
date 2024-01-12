@@ -11,6 +11,7 @@
     <form action="{{ route('category.store') }}" method="POST" enctype="multipart/form-data">
         @csrf
 
+
         <div class="row">
             <div class="mb-3">
                 <div class="form-group">

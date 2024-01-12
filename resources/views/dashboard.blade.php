@@ -61,6 +61,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-xl-3 col-md-6">
                 <div class="card bg-danger text-white mb-4">
                     <div class="card-body">Danger Card</div>
@@ -70,5 +71,5 @@
                                 focusable="false" data-prefix="fas" data-icon="angle-right" role="img"
                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg="">
                                 <path fill="currentColor" d="M246.6
-                </div>
+                    </div>
         @endsection

@@ -10,6 +10,7 @@
                     </div>
                     <div class="card-body">
 
+
                         <form action="{{ route('category.update', $category->id) }}" method="POST"
                             enctype="multipart/form-data">
                             @csrf
